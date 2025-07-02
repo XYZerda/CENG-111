@@ -6,7 +6,7 @@ income = inp["INCOME"] #takes values of "low, middle, high"
 
 marital_status = inp["MARITAL_STATUS"] #takes values of "single, married, single parent"
 
-child = inp["CHILD"] # çocuk yaşlarından oluşan bir liste verir
+child = inp["CHILD"] # A list containing the ages of children
 
 special_needs = inp["SPECIAL_NEEDS"] #takes values of "True, False"
 
@@ -31,7 +31,7 @@ elif income == "middle":
 elif income == "high":
     base_tax_rate = annual_income * 0.3
 
-child_number = len(child) #çocuk sayısını verdi
+child_number = len(child) 
 below18 = list(filter(lambda x: x < 18, child))
 LenBelow18 = len(below18)
 if marital_status == "single":
