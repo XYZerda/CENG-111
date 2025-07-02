@@ -94,37 +94,3 @@ def is_valid_child(parent, child):
         if parent[i] == "x" and child[i] != "x":
             return False
     return parent.count("o") == child.count("o") + 1
-                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
